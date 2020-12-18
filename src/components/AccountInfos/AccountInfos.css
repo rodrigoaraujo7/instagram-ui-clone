@@ -1,0 +1,43 @@
+.infos--center {
+    display: flex;
+    justify-content: center;
+}
+
+.infos--container {
+    width: 80%;
+    min-height: 30vh;
+
+    margin-top: 15px;
+}
+
+.infos--container img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+    background: #cdcdcd;
+}
+
+.infos--username {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.infos--flex,
+.infos--publications,
+.infos--followers {
+    display: flex;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.infos--publications h2,
+.infos--followers h2 {
+    font-weight: lighter;
+}
+
+.infos--publications h2:nth-child(1),
+.infos--followers h2:nth-child(1) {
+    font-weight: 600;
+    margin-right: 5px;
+}
