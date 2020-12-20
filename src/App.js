@@ -7,7 +7,7 @@ import Photos from './components/Photos';
 export default () => {
   return (
     <React.StrictMode>
-      <Header />
+      {/* <Header /> */}
       <AccountInfos />
       <hr />
       <Photos />
