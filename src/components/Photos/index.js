@@ -5,7 +5,7 @@ const Photos = () => {
     return (
         <center>
             <div className="container">
-                <div className="grip-wrapper">
+                <div className="grid-wrapper">
                     <div className="grid-item"></div>
                     <div className="grid-item"></div>
                     <div className="grid-item"></div>
