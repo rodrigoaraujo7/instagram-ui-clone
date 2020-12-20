@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+}
+
+.grip-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(300px, 400px));
+    grid-gap: 1rem;
+}
+
+.grid-item {
+    background: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}

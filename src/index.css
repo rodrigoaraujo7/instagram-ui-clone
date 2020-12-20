@@ -4,3 +4,11 @@ body {
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+hr {
+  width: 80%;
+  height: 2px;
+  
+  border: 0;
+  background: #C4C4C4;
+}
