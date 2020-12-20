@@ -8,7 +8,6 @@
     justify-content: center;
     align-items: center;
 
-    width: 80%;
     min-height: 30vh;
 
     margin-top: 15px;
@@ -46,4 +45,22 @@
 .infos--followers h2:nth-child(1) {
     font-weight: 600;
     margin-right: 5px;
+}
+
+@media (max-width: 750px) {
+    .infos--container .infos--photo img {
+        width: 135px;
+        height: 135px;
+    }
+    .infos--flex {
+        font-size: 15px;
+        flex-direction: column;
+        padding-top: 10px;
+    }    
+    .infos--username {
+        font-size: 25px;
+    }
+    .infos--followers {
+        margin-top: -35px;
+    }
 }
