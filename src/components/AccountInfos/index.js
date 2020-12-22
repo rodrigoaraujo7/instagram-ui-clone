@@ -5,10 +5,11 @@ const AccountInfos = () => {
     const informations = {
         userPhoto: '',
         user: 'rodrigoaraujo7',
-        publications: 15
+        publications: 15,
+        followers: 576
     }
 
-    const [follow, setFollow] = useState(576);
+    const [follow, setFollow] = useState(informations.followers);
 
     return (
         <div className="infos--center">
@@ -20,6 +21,7 @@ const AccountInfos = () => {
                 <div className="infos--text">
                     <h1 className="infos--username">{informations.user}</h1>
                     <input type="submit" value="Follow" onClick={() => setFollow(follow + 1)} />
+
                     <div className="infos--flex">
                         <div className="infos--publications">
                             <h2>{informations.publications}</h2>
