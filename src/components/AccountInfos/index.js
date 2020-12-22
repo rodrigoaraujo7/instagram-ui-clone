@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AccountInfos.css'
 
 const AccountInfos = () => {
@@ -18,6 +18,7 @@ const AccountInfos = () => {
 
                 <div className="infos--text">
                     <h1 className="infos--username">{informations.user}</h1>
+                    <input type="submit" value="Seguir" />
                     <div className="infos--flex">
                         <div className="infos--publications">
                             <h2>{informations.publications}</h2>

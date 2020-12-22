@@ -27,6 +27,28 @@
 .infos--username {
     font-size: 30px;
     font-weight: lighter;
+
+    display: inline-block;
+}
+
+input[type="submit"] {
+    display: inline-block;
+
+    padding: 8px 25px 8px 25px;
+    margin-left: 15px;
+
+    border: 0;
+    border-radius: 5px;
+
+    background:#4792f5;
+    color: #fff;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.infos--flex {
+    padding-top: 15px;
 }
 
 .infos--flex,
