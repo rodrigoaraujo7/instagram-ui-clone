@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './AccountInfos.css'
+import './AccountInfos.css';
+import UserPhoto200px from '../public/UserPhoto.png';
 
 const AccountInfos = () => {
     const informations = {
-        userPhoto: '',
+        userPhoto: UserPhoto200px,
         user: 'rodrigoaraujo7',
         publications: 15,
         followers: 576
