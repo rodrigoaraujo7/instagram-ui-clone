@@ -6,11 +6,21 @@ const Photos = () => {
         <center>
             <div className="container">
                 <div className="grid-wrapper">
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
-                    <div className="grid-item"></div>
+                    <div className="grid-item">
+                        <img />
+                    </div>
+                    <div className="grid-item">
+                        <img />
+                    </div>
+                    <div className="grid-item">
+                        <img />
+                    </div>
+                    <div className="grid-item">
+                        <img />
+                    </div>
+                    <div className="grid-item">
+                        <img />
+                    </div>
                 </div>
             </div>
         </center>

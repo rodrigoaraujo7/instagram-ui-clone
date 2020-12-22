@@ -21,11 +21,11 @@
     border-radius: 100px;
     background: #cdcdcd;
 
-    margin-right: 25px;
+    margin-right: 25px;    
 }
 
 .infos--username {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
@@ -35,6 +35,8 @@
     display: flex;
     margin-right: 20px;
     margin-top: -20px;
+
+    font-size: 13px
 }
 
 .infos--publications h2,

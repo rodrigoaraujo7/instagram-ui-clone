@@ -6,11 +6,11 @@ body {
 }
 
 hr {
-  width: 80%;
-  height: 2px;
+  width: 70%;
+  height: 1px;
 
   border: 0;
-  background: #c4c4c4;
+  background: #e6e6e6;
 }
 
 footer {
