@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './AccountInfos.css';
+import { photosArray } from '../Photos';
 import UserPhoto200px from '../public/UserPhoto.jpg';
 
 const AccountInfos = () => {
     const informations = {
         userPhoto: UserPhoto200px,
         user: 'keyboards.kb',
-        publications: 15,
+        publications: photosArray.length,
         followers: 576
     }
 
