@@ -5,7 +5,7 @@
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, minmax(250px, 350px));
+    grid-template-rows: repeat(2, minmax(250px, 315px));
     grid-gap: 1rem;
 }
 
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 5px;
 }
 .grid-item img {
     width: 100%;
